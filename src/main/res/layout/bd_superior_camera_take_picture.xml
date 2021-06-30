@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.beidou.superior.camera.core.SuperiorCameraLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentView="@+id/camera_view"
+        app:leftDownView="@+id/album_button"
+        app:centerView="@+id/take_photo_button"
+        app:rightUpView="@+id/light_button">
+
+    <com.beidou.superior.camera.core.SuperiorCameraView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </com.beidou.superior.camera.core.SuperiorCameraView>
+
+
+    <ImageView
+        android:id="@+id/album_button"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="@dimen/bd_superior_camera_left_margin"
+        android:layout_marginLeft="@dimen/bd_superior_camera_left_margin"
+        android:layout_marginBottom="@dimen/bd_superior_camera_bottom_margin"
+        android:padding="18dp"
+        android:src="@drawable/bd_superior_camera_gallery"
+        android:visibility="gone" />
+
+
+    <ImageView
+            android:id="@+id/take_photo_button"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:clickable="true"
+            android:background="@drawable/bd_superior_camera_take_photo_selector"/>
+
+
+    <ImageView
+        android:id="@+id/light_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/bd_superior_camera_top_margin"
+        android:layout_marginEnd="@dimen/bd_superior_camera_right_margin"
+        android:layout_marginRight="@dimen/bd_superior_camera_right_margin"
+        android:clickable="true"
+        android:padding="15dp"
+        android:paddingBottom="3dp"
+        android:src="@drawable/bd_superior_camera_light_off"
+        android:visibility="gone" />
+
+</com.beidou.superior.camera.core.SuperiorCameraLayout>

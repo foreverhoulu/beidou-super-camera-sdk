@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bd_superior_camera_left_margin">18dp</dimen>
+    <dimen name="bd_superior_camera_right_margin">18dp</dimen>
+    <dimen name="bd_superior_camera_bottom_margin">16dp</dimen>
+    <dimen name="bd_superior_camera_top_margin">16dp</dimen>
+</resources>

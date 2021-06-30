@@ -1,0 +1,9 @@
+<resources>
+    <string name="bd_superior_camera_permission_required">This feature requires camera permissions!</string>
+    <string name="bd_superior_camera_tip_face_to_frame">Please put the face in the portrait frame.</string>
+    <string name="bd_superior_camera_dialog_in_progress">Data processing...</string>
+
+    <string name="bd_superior_camera_take_photo_success">Image obtained successfully.</string>
+    <string name="bd_superior_camera_take_photo_failure">Image obtained failed. Please try again.</string>
+    <string name="bd_superior_camera_failed_tip_manually_quit">Manual exit.</string>
+</resources>
